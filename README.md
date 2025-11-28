@@ -4,7 +4,7 @@
 1. Install [Docker](https://docs.docker.com/desktop/) and [Docker Compose](https://docs.docker.com/desktop/).
 2. Download the source code.
 
-```git```
+```git clone https://github.com/NL70/srp-bigint-lib.git```
 
 3. Build the image, you only have to do this once.
 
