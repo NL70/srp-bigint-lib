@@ -1,0 +1,19 @@
+# Build directories
+/build/
+/out/
+/bin/
+
+# CMake files
+/CMakeCache.txt
+/CMakeFiles/
+/Makefile
+/*.cmake
+
+# Other generated files
+/results/
+
+.DS_Store
+/.vscode
+
+# Google Benchmark
+/benchmark

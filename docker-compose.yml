@@ -1,0 +1,17 @@
+services:
+  bigint-bench:
+    build: .
+    deploy:
+      resources:
+        limits:
+          cpus: "1.0"
+          memory: 1g
+    cpuset: "0"
+    volumes:
+      - ./src:/app/src
+      - ./include:/app/include
+      - ./tests:/app/tests
+      - ./scripts:/app/scripts
+      - ./CMakeLists.txt:/app/CMakeLists.txt
+      - ./CMakePresets.json:/app/CMakePresets.json
+      - ./results:/app/results
